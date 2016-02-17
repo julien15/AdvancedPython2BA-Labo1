@@ -6,7 +6,7 @@
 import os
 from bottle import route, run
 
-@route('/')
+@route('/salon')
 def home():
     c='''
         <!DOCTYPE html>
