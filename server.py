@@ -46,7 +46,7 @@ def formulaire():
                 <br/>
                 <label for="pass">Mot de passe</label> : <input type="password" name="pass" />
             </p>
-            <p><a href="http://localhost:8088/sinscrire"> Pas encore de compte ? </p>
+            <p><a href="http://infolabo.herokuapp.com/sinscrire"> Pas encore de compte ? </p>
             <input type="submit" value = 'se connecter'/>
             </form>
 
@@ -199,7 +199,7 @@ def forum():
     </head>
     <body>
         <h1>Forum</h1>
-        <a href="http://localhost:8088/salon">Accueil</a>
+        <a href="http://infolabo.herokuapp.com/salon">Accueil</a>
         <article>
         <form method="post" action="/traitementforum">
         <p>
@@ -341,7 +341,7 @@ def categoriecouleur(nom):
         </head>
         <body>
             <h1> La bière blonde</h1>
-            <p> <a href="http://localhost:8088/salon"> >Acceuil</a> </p>
+            <p> <a href="http://infolabo.herokuapp.com/salon"> >Acceuil</a> </p>
             <section>
                 <p> La blonde,</p>
                 <p>Bière existant depuis les origines de la bière et brassée avec du froment ou de l'avoine en plus de l'orge. Cela leur donne un goût légèrement piquant. Les blanches sont également souvent brassées comme autrefois avec des épices : coriandre, curaçao, écorces d’orange. Elles peuvent être de fermentation haute ou basse (plus rare) et sont généralement refermentées en bouteille.</p>
@@ -414,7 +414,7 @@ def categoriecouleur(nom):
         </head>
         <body>
             <h1> La bière brune</h1>
-            <p> <a href="http://localhost:8088/salon"> >Acceuil</a> </p>
+            <p> <a href="http://infolabo.herokuapp.com/salon"> >Acceuil</a> </p>
             <section>
                 <p> La bière brune,</p>
                 <p>Bière existant depuis les origines de la bière et brassée avec du froment ou de l'avoine en plus de l'orge. Cela leur donne un goût légèrement piquant. Les blanches sont également souvent brassées comme autrefois avec des épices : coriandre, curaçao, écorces d’orange. Elles peuvent être de fermentation haute ou basse (plus rare) et sont généralement refermentées en bouteille. photo@chimay</p>
@@ -483,7 +483,7 @@ def categoriecouleur(nom):
             </head>
             <body>
             <h1> La bière ambrée </h1>
-            <p> <a href="http://localhost:8088/salon"> >Acceuil</a> </p>
+            <p> <a href="http://infolabo.herokuapp.com/salon"> >Acceuil</a> </p>
             <section>
                 <p> La bière ambrée,</p>
                 <p> Après la première guerre mondiale, s'inspirant des anglais, beaucoup de brasseurs belges passent de la lager brune traditionnelle à la bière de type « lager » (bière de fermentation haute). Cette bière, à la robe bronze ou rouge-ambrée à cuivrée, est une bière légère, qui se boit souvent comme alternative à la pils, avec une teneur en alcool comparable (5°). Elle possède une saveur douce, un petit goût de levure et une légère touche épicée. La plupart d'entr'elles ont un léger apport de houblon et un arôme légèrement fruité, voire caramelisé. Presque toutes sont filtrées et pasteurisées, et à part la couleur, les ales ambrées belges n'ont que peu de choses en commun avec les ales anglaises. </p>
@@ -563,7 +563,7 @@ def categoriecouleur(nom):
             </head>
             <body>
             <h1> La blanche</h1>
-            <p> <a href="http://localhost:8088/salon"> >Acceuil </a></p>
+            <p> <a href="http://infolabo.herokuapp.com/salon"> >Acceuil </a></p>
             <section>
                 <h2> La blanche,</h2>
                 <p>
@@ -657,7 +657,7 @@ def categoriecouleur(nom):
             </head>
             <body>
             <h1> La rouge</h1>
-            <p> <a href="http://localhost:8088/salon"> >Acceuil </a></p>
+            <p> <a href="http://infolabo.herokuapp.com/salon"> >Acceuil </a></p>
             <section>
                 <h2> La rouge,</h2>
                 <p>
@@ -752,7 +752,7 @@ def categoriecouleur(nom):
             </head>
             <body>
             <h1> La noire</h1>
-            <p> <a href="http://localhost:8088/salon"> >Acceuil </a></p>
+            <p> <a href="http://infolabo.herokuapp.com/salon"> >Acceuil </a></p>
             <section>
                 <h2> La noire,</h2>
                 <p>
@@ -839,7 +839,7 @@ def type():
             </head>
             <body>
             <h1> Les fermentations</h1>
-            <p> <a href="http://localhost:8088/salon"> >Acceuil </a></p>
+            <p> <a href="http://infolabo.herokuapp.com/salon"> >Acceuil </a></p>
             <section>
             <p>
                 Comme vous le sachez, le brassage d'une bière peut se faire de différentes manières. On laisse fermenter plus/moin longtemps, on rajoute différents ingrédients en plus, etc.. Si on s'interesse à la façcon dont on peut laisser fermenter une bière (cad le processus qui "gère" le degré d'alcool). On peut  ainsi faire fermenter une bière un certain nombre de fois pour obtenir les propriétées souhaitées. Plus on fait fermenter une bière, plus elle sera alcoolisée. Une bière qui a subi une seule fermentation peut être assimilé a-à une bière simple. 2 ferentations = bière double. 3 fermentations = bière triple. Et enfin la quadruple qui elle a subi 4 fermentations.
@@ -947,7 +947,7 @@ def pils():
         </head>
         <body>
             <h1> La pils </h1>
-            <p> <a href="http://localhost:8088/salon"> >Acceuil</a> </p>
+            <p> <a href="http://infolabo.herokuapp.com/salon"> >Acceuil</a> </p>
             <section>
                 <p> La pils ou pilsner,</p>
                 <p> Même si la Belgique est célèbre pour ses bières spéciales, ce sont les pils qui sont les plus vendues sur le marché interne et en exportation. Les pils représentent 75 % de la production de bières belges. De fermentation basse, on les reconnaît aisément à leur couleur claire et leur goût doux.
@@ -1045,7 +1045,7 @@ def lien():
         <body>
             <h2> pour rejoindre notre site veillez cliquer sur ce lien :
             </br>
-            <a href="http://localhost:8088/salon"> Salon de la bière</a>
+            <a href="http://infolabo.herokuapp.com/salon"> Salon de la bière</a>
         </body>
         </html>'''
     return r
